@@ -1,0 +1,5 @@
+$ docker run -v ${PWD}/app:/app -w /app python:3.9.13-alpine3.16 sh -c "pip install Django==4.0.4 && django-admin startproject app ."
+
+$ docker-compose build
+
+$ docker-compose up
